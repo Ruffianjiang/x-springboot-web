@@ -1,0 +1,11 @@
+# x-springboot-web → 放到 .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"   # 现有 PR 来自仓库根
+    schedule:
+      interval: "weekly"
+    groups:
+      all-dependencies:
+        patterns: ["*"]
+    open-pull-requests-limit: 10
