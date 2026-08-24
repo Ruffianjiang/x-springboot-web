@@ -48,6 +48,8 @@
 </template>
 
 <script>
+import { ElMessage } from 'element-plus'
+
 export default {
   data() {
     return {
@@ -65,10 +67,10 @@ export default {
   },
   methods: {
     onSubmit() {
-      this.$message('submit!')
+      ElMessage('submit!')
     },
     onCancel() {
-      this.$message({
+      ElMessage({
         message: 'cancel!',
         type: 'warning'
       })
