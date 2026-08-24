@@ -1,18 +1,1 @@
-import { shallowMount } from '@vue/test-utils'
-import Hamburger from '@/components/Hamburger/index.vue'
-describe('Hamburger.vue', () => {
-  it('toggle click', () => {
-    const wrapper = shallowMount(Hamburger)
-    const mockFn = jest.fn()
-    wrapper.vm.$on('toggleClick', mockFn)
-    wrapper.find('.hamburger').trigger('click')
-    expect(mockFn).toBeCalled()
-  })
-  it('prop isActive', () => {
-    const wrapper = shallowMount(Hamburger)
-    wrapper.setProps({ isActive: true })
-    expect(wrapper.contains('.is-active')).toBe(true)
-    wrapper.setProps({ isActive: false })
-    expect(wrapper.contains('.is-active')).toBe(false)
-  })
-})
+aW1wb3J0IHsgc2hhbGxvd01vdW50IH0gZnJvbSAnQHZ1ZS90ZXN0LXV0aWxzJwppbXBvcnQgSGFtYnVyZ2VyIGZyb20gJ0AvY29tcG9uZW50cy9IYW1idXJnZXIvaW5kZXgudnVlJwoKZGVzY3JpYmUoJ0hhbWJ1cmdlci52dWUnLCAoKSA9PiB7CiAgaXQoJ3RvZ2dsZSBjbGljaycsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBzaGFsbG93TW91bnQoSGFtYnVyZ2VyKQogICAgYXdhaXQgd3JhcHBlci5maW5kKCcuaGFtYnVyZ2VyJykudHJpZ2dlcignY2xpY2snKQogICAgZXhwZWN0KHdyYXBwZXIuZW1pdHRlZCgndG9nZ2xlQ2xpY2snKSkudG9CZVRydXRoeSgpCiAgfSkKICBpdCgncHJvcCBpc0FjdGl2ZScsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHdyYXBwZXIgPSBzaGFsbG93TW91bnQoSGFtYnVyZ2VyKQogICAgYXdhaXQgd3JhcHBlci5zZXRQcm9wcyh7IGlzQWN0aXZlOiB0cnVlIH0pCiAgICBleHBlY3Qod3JhcHBlci5maW5kKCcuaXMtYWN0aXZlJykuZXhpc3RzKCkpLnRvQmUodHJ1ZSkKICAgIGF3YWl0IHdyYXBwZXIuc2V0UHJvcHMoeyBpc0FjdGl2ZTogZmFsc2UgfSkKICAgIGV4cGVjdCh3cmFwcGVyLmZpbmQoJy5pcy1hY3RpdmUnKS5leGlzdHMoKSkudG9CZShmYWxzZSkKICB9KQp9KQo=
