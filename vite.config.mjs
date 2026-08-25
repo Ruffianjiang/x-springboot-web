@@ -1,1 +1,23 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZScKaW1wb3J0IHZ1ZSBmcm9tICdAdml0ZWpzL3BsdWdpbi12dWUnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgc3ZnSWNvbnMgfSBmcm9tICcuL3ZpdGUvcGx1Z2lucy9zdmctaWNvbnMubWpzJwppbXBvcnQgeyBtb2NrU2VydmVyIH0gZnJvbSAnLi92aXRlL3BsdWdpbnMvbW9jay5tanMnCgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHBsdWdpbnM6IFsKICAgIHZ1ZSgpLAogICAgc3ZnSWNvbnMoKSwKICAgIG1vY2tTZXJ2ZXIoKQogIF0sCiAgcmVzb2x2ZTogewogICAgZXh0ZW5zaW9uczogWycubWpzJywgJy5qcycsICcubXRzJywgJy50cycsICcuanN4JywgJy50c3gnLCAnLmpzb24nLCAnLnZ1ZSddLAogICAgYWxpYXM6IHsKICAgICAgJ0AnOiBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJ3NyYycpCiAgICB9CiAgfSwKICBzZXJ2ZXI6IHsKICAgIHBvcnQ6IDk1MjgsCiAgICBvcGVuOiB0cnVlCiAgfQp9KQo=
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import path from 'node:path'
+import { svgIcons } from './vite/plugins/svg-icons.mjs'
+import { mockServer } from './vite/plugins/mock.mjs'
+
+export default defineConfig({
+  plugins: [
+    vue(),
+    svgIcons(),
+    mockServer()
+  ],
+  resolve: {
+    extensions: ['.mjs', '.js', '.mts', '.ts', '.jsx', '.tsx', '.json', '.vue'],
+    alias: {
+      '@': path.resolve(process.cwd(), 'src')
+    }
+  },
+  server: {
+    port: 9528,
+    open: true
+  }
+})

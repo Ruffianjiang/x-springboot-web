@@ -1,1 +1,22 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZXN0L2NvbmZpZycKaW1wb3J0IHZ1ZSBmcm9tICdAdml0ZWpzL3BsdWdpbi12dWUnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgc3ZnSWNvbnMgfSBmcm9tICcuL3ZpdGUvcGx1Z2lucy9zdmctaWNvbnMubWpzJwoKLy8g5rWL6K+V5qGG5p6277yIU3RhZ2UgM++8mmplc3Qg4oaSIHZpdGVzdO+8iQpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHBsdWdpbnM6IFsKICAgIHZ1ZSgpLAogICAgc3ZnSWNvbnMoKQogIF0sCiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgJ0AnOiBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJ3NyYycpCiAgICB9CiAgfSwKICB0ZXN0OiB7CiAgICBlbnZpcm9ubWVudDogJ2pzZG9tJywKICAgIGdsb2JhbHM6IHRydWUsCiAgICBpbmNsdWRlOiBbJ3Rlc3RzL3VuaXQvKiovKi5zcGVjLntqcyx0c30nXQogIH0KfSkK
+import { defineConfig } from 'vitest/config'
+import vue from '@vitejs/plugin-vue'
+import path from 'node:path'
+import { svgIcons } from './vite/plugins/svg-icons.mjs'
+
+// 测试框架（Stage 3：jest → vitest）
+export default defineConfig({
+  plugins: [
+    vue(),
+    svgIcons()
+  ],
+  resolve: {
+    alias: {
+      '@': path.resolve(process.cwd(), 'src')
+    }
+  },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    include: ['tests/unit/**/*.spec.{js,ts}']
+  }
+})

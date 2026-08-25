@@ -1,1 +1,52 @@
-ewogICJuYW1lIjogInZ1ZS1hZG1pbi10ZW1wbGF0ZSIsCiAgInZlcnNpb24iOiAiNC40LjAiLAogICJkZXNjcmlwdGlvbiI6ICJBIHZ1ZSBhZG1pbiB0ZW1wbGF0ZSB3aXRoIEVsZW1lbnQgUGx1cyAmIGF4aW9zICYgaWNvbmZvbnQgJiBwZXJtaXNzaW9uIGNvbnRyb2wgJiBsaW50IiwKICAiYXV0aG9yIjogIlBhbiA8cGFuZnJlZTIzQGdtYWlsLmNvbT4iLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJ2aXRlIiwKICAgICJidWlsZDpwcm9kIjogInZpdGUgYnVpbGQiLAogICAgImJ1aWxkOnN0YWdlIjogInZpdGUgYnVpbGQgLS1tb2RlIHN0YWdpbmciLAogICAgInByZXZpZXciOiAidml0ZSBwcmV2aWV3IiwKICAgICJsaW50IjogImVzbGludCBzcmMiLAogICAgInRlc3QiOiAidml0ZXN0IHJ1biIsCiAgICAidGVzdDp3YXRjaCI6ICJ2aXRlc3QiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBlbGVtZW50LXBsdXMvaWNvbnMtdnVlIjogIjIuMy4yIiwKICAgICJheGlvcyI6ICIxLjE5LjAiLAogICAgImVsZW1lbnQtcGx1cyI6ICIyLjE0LjQiLAogICAgImpzLWNvb2tpZSI6ICIzLjAuOCIsCiAgICAibm9ybWFsaXplLmNzcyI6ICI4LjAuMSIsCiAgICAibnByb2dyZXNzIjogIjAuMi4wIiwKICAgICJwYXRoLXRvLXJlZ2V4cCI6ICI4LjQuMiIsCiAgICAidnVlIjogIjMuNS40MSIsCiAgICAidnVlLXJvdXRlciI6ICI1LjIuMCIsCiAgICAidnVleCI6ICI0LjEuMCIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAiQGVzbGludC9qcyI6ICJeMTAuMC4xIiwKICAgICJAdml0ZWpzL3BsdWdpbi12dWUiOiAiNi4wLjgiLAogICAgIkB2dWUvdGVzdC11dGlscyI6ICIyLjQuMTEiLAogICAgImF1dG9wcmVmaXhlciI6ICIxMC41LjQiLAogICAgImVzbGludCI6ICIxMC44LjEiLAogICAgImVzbGludC1wbHVnaW4tdnVlIjogIjEwLjEwLjAiLAogICAgImZhc3QtZ2xvYiI6ICJeMy4zLjMiLAogICAgImdsb2JhbHMiOiAiXjE3LjExLjAiLAogICAgImpzZG9tIjogIl4zMC4wLjEiLAogICAgIm1vY2tqcyI6ICIxLjEuMCIsCiAgICAic2FzcyI6ICIxLjEwMi4wIiwKICAgICJ2aXRlIjogIjguMi4yIiwKICAgICJ2aXRlLXBsdWdpbi1zdmctaWNvbnMiOiAiMi4wLjEiLAogICAgInZpdGVzdCI6ICJeNC4xLjExIiwKICAgICJ2dWUtZXNsaW50LXBhcnNlciI6ICJeMTAuNC4xIgogIH0sCiAgImJyb3dzZXJzbGlzdCI6IFsKICAgICI+IDElIiwKICAgICJsYXN0IDIgdmVyc2lvbnMiCiAgXSwKICAiZW5naW5lcyI6IHsKICAgICJub2RlIjogIj49MTgiCiAgfSwKICAibGljZW5zZSI6ICJNSVQiCn0K
+{
+  "name": "vue-admin-template",
+  "version": "4.4.0",
+  "description": "A vue admin template with Element Plus & axios & iconfont & permission control & lint",
+  "author": "Pan <panfree23@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build:prod": "vite build",
+    "build:stage": "vite build --mode staging",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.3.2",
+    "axios": "1.19.0",
+    "element-plus": "2.14.4",
+    "js-cookie": "3.0.8",
+    "normalize.css": "8.0.1",
+    "nprogress": "0.2.0",
+    "path-to-regexp": "8.4.2",
+    "vue": "3.5.41",
+    "vue-router": "5.2.0",
+    "vuex": "4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitejs/plugin-vue": "6.0.8",
+    "@vue/test-utils": "2.4.11",
+    "autoprefixer": "10.5.4",
+    "eslint": "10.8.1",
+    "eslint-plugin-vue": "10.10.0",
+    "fast-glob": "^3.3.3",
+    "globals": "^17.11.0",
+    "jsdom": "^30.0.1",
+    "mockjs": "1.1.0",
+    "sass": "1.102.0",
+    "vite": "8.2.2",
+    "vite-plugin-svg-icons": "2.0.1",
+    "vitest": "^4.1.11",
+    "vue-eslint-parser": "^10.4.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

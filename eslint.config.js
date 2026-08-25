@@ -1,1 +1,211 @@
-Ly8gRVNMaW50IGZsYXQgY29uZmlnIChTdGFnZSAzIG1pZ3JhdGlvbiBmcm9tIGxlZ2FjeSAuZXNsaW50cmMuanMpCi8vIC0gRVNMaW50IDEwIOm7mOiupCBlc3ByZWXvvIjnp7vpmaTlt7Llup/lvIPnmoQgYmFiZWwtZXNsaW5077yJCi8vIC0gODArIOiHquWumuS5ieinhOWImeWOn+agt+aQrOWFpe+8m+Wkmuivjee7hOS7tuWQjeagoemqjOWFs+mXre+8iOmhueebruWtmOWcqOWkp+mHjyBpbmRleC52dWUg5Y2V5paH5Lu25ZCN77yJCmltcG9ydCBqcyBmcm9tICdAZXNsaW50L2pzJwppbXBvcnQgcGx1Z2luVnVlIGZyb20gJ2VzbGludC1wbHVnaW4tdnVlJwppbXBvcnQgZ2xvYmFscyBmcm9tICdnbG9iYWxzJwoKZXhwb3J0IGRlZmF1bHQgWwogIHsKICAgIC8vIOWFqOWxgOW/veeVpe+8iOWOnyAuZXNsaW50aWdub3JlIOWGheWuueW5tuWFpe+8iQogICAgaWdub3JlczogWwogICAgICAnYnVpbGQvKionLAogICAgICAnc3JjL2Fzc2V0cycsCiAgICAgICdwdWJsaWMnLAogICAgICAnZGlzdCcsCiAgICAgICcuc3RhZ2UyLWRpc3QnLAogICAgICAndGVzdHMvdW5pdC9jb3ZlcmFnZScsCiAgICAgICdjb3ZlcmFnZScKICAgIF0KICB9LAogIGpzLmNvbmZpZ3MucmVjb21tZW5kZWQsCiAgLi4ucGx1Z2luVnVlLmNvbmZpZ3NbJ2ZsYXQvcmVjb21tZW5kZWQnXSwKICB7CiAgICBmaWxlczogWycqKi8qLntqcyx2dWV9J10sCiAgICBsYW5ndWFnZU9wdGlvbnM6IHsKICAgICAgc291cmNlVHlwZTogJ21vZHVsZScsCiAgICAgIGVjbWFWZXJzaW9uOiAnbGF0ZXN0JywKICAgICAgZ2xvYmFsczogewogICAgICAgIC4uLmdsb2JhbHMuYnJvd3NlciwKICAgICAgICAuLi5nbG9iYWxzLm5vZGUKICAgICAgfQogICAgfSwKICAgIHJ1bGVzOiB7CiAgICAgICd2dWUvbWF4LWF0dHJpYnV0ZXMtcGVyLWxpbmUnOiBbMiwgewogICAgICAgIHNpbmdsZWxpbmU6IDEwLAogICAgICAgIG11bHRpbGluZTogMQogICAgICB9XSwKICAgICAgJ3Z1ZS9zaW5nbGVsaW5lLWh0bWwtZWxlbWVudC1jb250ZW50LW5ld2xpbmUnOiAnb2ZmJywKICAgICAgJ3Z1ZS9tdWx0aWxpbmUtaHRtbC1lbGVtZW50LWNvbnRlbnQtbmV3bGluZSc6ICdvZmYnLAogICAgICAndnVlL211bHRpLXdvcmQtY29tcG9uZW50LW5hbWVzJzogJ29mZicsCiAgICAgICd2dWUvbm8tdi1odG1sJzogJ29mZicsCiAgICAgICdhY2Nlc3Nvci1wYWlycyc6IDIsCiAgICAgICdhcnJvdy1zcGFjaW5nJzogWzIsIHsKICAgICAgICBiZWZvcmU6IHRydWUsCiAgICAgICAgYWZ0ZXI6IHRydWUKICAgICAgfV0sCiAgICAgICdibG9jay1zcGFjaW5nJzogWzIsICdhbHdheXMnXSwKICAgICAgJ2JyYWNlLXN0eWxlJzogWzIsICcxdGJzJywgewogICAgICAgIGFsbG93U2luZ2xlTGluZTogdHJ1ZQogICAgICB9XSwKICAgICAgJ2NhbWVsY2FzZSc6IFswLCB7CiAgICAgICAgcHJvcGVydGllczogJ2Fsd2F5cycKICAgICAgfV0sCiAgICAgICdjb21tYS1kYW5nbGUnOiBbMiwgJ25ldmVyJ10sCiAgICAgICdjb21tYS1zcGFjaW5nJzogWzIsIHsKICAgICAgICBiZWZvcmU6IGZhbHNlLAogICAgICAgIGFmdGVyOiB0cnVlCiAgICAgIH1dLAogICAgICAnY29tbWEtc3R5bGUnOiBbMiwgJ2xhc3QnXSwKICAgICAgJ2NvbnN0cnVjdG9yLXN1cGVyJzogMiwKICAgICAgJ2N1cmx5JzogWzIsICdtdWx0aS1saW5lJ10sCiAgICAgICdkb3QtbG9jYXRpb24nOiBbMiwgJ3Byb3BlcnR5J10sCiAgICAgICdlb2wtbGFzdCc6IDIsCiAgICAgICdlcWVxZXEnOiBbJ2Vycm9yJywgJ2Fsd2F5cycsIHsgbnVsbDogJ2lnbm9yZScgfV0sCiAgICAgICdnZW5lcmF0b3Itc3Rhci1zcGFjaW5nJzogWzIsIHsKICAgICAgICBiZWZvcmU6IHRydWUsCiAgICAgICAgYWZ0ZXI6IHRydWUKICAgICAgfV0sCiAgICAgICdoYW5kbGUtY2FsbGJhY2stZXJyJzogWzIsICdeKGVycnxlcnJvcikkJ10sCiAgICAgICdpbmRlbnQnOiBbMiwgMiwgewogICAgICAgIFN3aXRjaENhc2U6IDEKICAgICAgfV0sCiAgICAgICdqc3gtcXVvdGVzJzogWzIsICdwcmVmZXItc2luZ2xlJ10sCiAgICAgICdrZXktc3BhY2luZyc6IFsyLCB7CiAgICAgICAgYmVmb3JlQ29sb246IGZhbHNlLAogICAgICAgIGFmdGVyQ29sb246IHRydWUKICAgICAgfV0sCiAgICAgICdrZXl3b3JkLXNwYWNpbmcnOiBbMiwgewogICAgICAgIGJlZm9yZTogdHJ1ZSwKICAgICAgICBhZnRlcjogdHJ1ZQogICAgICB9XSwKICAgICAgJ25ldy1jYXAnOiBbMiwgewogICAgICAgIG5ld0lzQ2FwOiB0cnVlLAogICAgICAgIGNhcElzTmV3OiBmYWxzZQogICAgICB9XSwKICAgICAgJ25ldy1wYXJlbnMnOiAyLAogICAgICAnbm8tYXJyYXktY29uc3RydWN0b3InOiAyLAogICAgICAnbm8tY2FsbGVyJzogMiwKICAgICAgJ25vLWNvbnNvbGUnOiAnb2ZmJywKICAgICAgJ25vLWNsYXNzLWFzc2lnbic6IDIsCiAgICAgICduby1jb25kLWFzc2lnbic6IDIsCiAgICAgICduby1jb25zdC1hc3NpZ24nOiAyLAogICAgICAnbm8tY29udHJvbC1yZWdleCc6IDAsCiAgICAgICduby1kZWxldGUtdmFyJzogMiwKICAgICAgJ25vLWR1cGUtYXJncyc6IDIsCiAgICAgICduby1kdXBlLWNsYXNzLW1lbWJlcnMnOiAyLAogICAgICAnbm8tZHVwZS1rZXlzJzogMiwKICAgICAgJ25vLWR1cGxpY2F0ZS1jYXNlJzogMiwKICAgICAgJ25vLWVtcHR5LWNoYXJhY3Rlci1jbGFzcyc6IDIsCiAgICAgICduby1lbXB0eS1wYXR0ZXJuJzogMiwKICAgICAgJ25vLWV2YWwnOiAyLAogICAgICAnbm8tZXgtYXNzaWduJzogMiwKICAgICAgJ25vLWV4dGVuZC1uYXRpdmUnOiAyLAogICAgICAnbm8tZXh0cmEtYmluZCc6IDIsCiAgICAgICduby1leHRyYS1ib29sZWFuLWNhc3QnOiAyLAogICAgICAnbm8tZXh0cmEtcGFyZW5zJzogWzIsICdmdW5jdGlvbnMnXSwKICAgICAgJ25vLWZhbGx0aHJvdWdoJzogMiwKICAgICAgJ25vLWZsb2F0aW5nLWRlY2ltYWwnOiAyLAogICAgICAnbm8tZnVuYy1hc3NpZ24nOiAyLAogICAgICAnbm8taW1wbGllZC1ldmFsJzogMiwKICAgICAgJ25vLWlubmVyLWRlY2xhcmF0aW9ucyc6IFsyLCAnZnVuY3Rpb25zJ10sCiAgICAgICduby1pbnZhbGlkLXJlZ2V4cCc6IDIsCiAgICAgICduby1pcnJlZ3VsYXItd2hpdGVzcGFjZSc6IDIsCiAgICAgICduby1pdGVyYXRvcic6IDIsCiAgICAgICduby1sYWJlbC12YXInOiAyLAogICAgICAnbm8tbGFiZWxzJzogWzIsIHsKICAgICAgICBhbGxvd0xvb3A6IGZhbHNlLAogICAgICAgIGFsbG93U3dpdGNoOiBmYWxzZQogICAgICB9XSwKICAgICAgJ25vLWxvbmUtYmxvY2tzJzogMiwKICAgICAgJ25vLW1peGVkLXNwYWNlcy1hbmQtdGFicyc6IDIsCiAgICAgICduby1tdWx0aS1zcGFjZXMnOiAyLAogICAgICAnbm8tbXVsdGktc3RyJzogMiwKICAgICAgJ25vLW11bHRpcGxlLWVtcHR5LWxpbmVzJzogWzIsIHsKICAgICAgICBtYXg6IDEKICAgICAgfV0sCiAgICAgICduby1uYXRpdmUtcmVhc3NpZ24nOiAyLAogICAgICAnbm8tbmVnYXRlZC1pbi1saHMnOiAyLAogICAgICAnbm8tbmV3LW9iamVjdCc6IDIsCiAgICAgICduby1uZXctcmVxdWlyZSc6IDIsCiAgICAgICduby1uZXctc3ltYm9sJzogMiwKICAgICAgJ25vLW5ldy13cmFwcGVycyc6IDIsCiAgICAgICduby1vYmotY2FsbHMnOiAyLAogICAgICAnbm8tb2N0YWwnOiAyLAogICAgICAnbm8tb2N0YWwtZXNjYXBlJzogMiwKICAgICAgJ25vLXBhdGgtY29uY2F0JzogMiwKICAgICAgJ25vLXByb3RvJzogMiwKICAgICAgJ25vLXJlZGVjbGFyZSc6IDIsCiAgICAgICduby1yZWdleC1zcGFjZXMnOiAyLAogICAgICAnbm8tcmV0dXJuLWFzc2lnbic6IFsyLCAnZXhjZXB0LXBhcmVucyddLAogICAgICAnbm8tc2VsZi1hc3NpZ24nOiAyLAogICAgICAnbm8tc2VsZi1jb21wYXJlJzogMiwKICAgICAgJ25vLXNlcXVlbmNlcyc6IDIsCiAgICAgICduby1zaGFkb3ctcmVzdHJpY3RlZC1uYW1lcyc6IDIsCiAgICAgICduby1zcGFjZWQtZnVuYyc6IDIsCiAgICAgICduby1zcGFyc2UtYXJyYXlzJzogMiwKICAgICAgJ25vLXRoaXMtYmVmb3JlLXN1cGVyJzogMiwKICAgICAgJ25vLXRocm93LWxpdGVyYWwnOiAyLAogICAgICAnbm8tdHJhaWxpbmctc3BhY2VzJzogMiwKICAgICAgJ25vLXVuZGVmJzogMiwKICAgICAgJ25vLXVuZGVmLWluaXQnOiAyLAogICAgICAnbm8tdW5leHBlY3RlZC1tdWx0aWxpbmUnOiAyLAogICAgICAnbm8tdW5tb2RpZmllZC1sb29wLWNvbmRpdGlvbic6IDIsCiAgICAgICduby11bm5lZWRlZC10ZXJuYXJ5JzogWzIsIHsKICAgICAgICBkZWZhdWx0QXNzaWdubWVudDogZmFsc2UKICAgICAgfV0sCiAgICAgICduby11bnJlYWNoYWJsZSc6IDIsCiAgICAgICduby11bnNhZmUtZmluYWxseSc6IDIsCiAgICAgICduby11bnVzZWQtdmFycyc6IFsyLCB7CiAgICAgICAgdmFyczogJ2FsbCcsCiAgICAgICAgYXJnczogJ25vbmUnCiAgICAgIH1dLAogICAgICAnbm8tdXNlbGVzcy1jYWxsJzogMiwKICAgICAgJ25vLXVzZWxlc3MtY29tcHV0ZWQta2V5JzogMiwKICAgICAgJ25vLXVzZWxlc3MtY29uc3RydWN0b3InOiAyLAogICAgICAnbm8tdXNlbGVzcy1lc2NhcGUnOiAwLAogICAgICAnbm8td2hpdGVzcGFjZS1iZWZvcmUtcHJvcGVydHknOiAyLAogICAgICAnbm8td2l0aCc6IDIsCiAgICAgICdvbmUtdmFyJzogWzIsIHsKICAgICAgICBpbml0aWFsaXplZDogJ25ldmVyJwogICAgICB9XSwKICAgICAgJ29wZXJhdG9yLWxpbmVicmVhayc6IFsyLCAnYWZ0ZXInLCB7CiAgICAgICAgb3ZlcnJpZGVzOiB7CiAgICAgICAgICAnPyc6ICdiZWZvcmUnLAogICAgICAgICAgJzonOiAnYmVmb3JlJwogICAgICAgIH0KICAgICAgfV0sCiAgICAgICdwYWRkZWQtYmxvY2tzJzogWzIsICduZXZlciddLAogICAgICAncXVvdGVzJzogWzIsICdzaW5nbGUnLCB7CiAgICAgICAgYXZvaWRFc2NhcGU6IHRydWUsCiAgICAgICAgYWxsb3dUZW1wbGF0ZUxpdGVyYWxzOiB0cnVlCiAgICAgIH1dLAogICAgICAnc2VtaSc6IFsyLCAnbmV2ZXInXSwKICAgICAgJ3NlbWktc3BhY2luZyc6IFsyLCB7CiAgICAgICAgYmVmb3JlOiBmYWxzZSwKICAgICAgICBhZnRlcjogdHJ1ZQogICAgICB9XSwKICAgICAgJ3NwYWNlLWJlZm9yZS1ibG9ja3MnOiBbMiwgJ2Fsd2F5cyddLAogICAgICAnc3BhY2UtYmVmb3JlLWZ1bmN0aW9uLXBhcmVuJzogWzIsICduZXZlciddLAogICAgICAnc3BhY2UtaW4tcGFyZW5zJzogWzIsICduZXZlciddLAogICAgICAnc3BhY2UtaW5maXgtb3BzJzogMiwKICAgICAgJ3NwYWNlLXVuYXJ5LW9wcyc6IFsyLCB7CiAgICAgICAgd29yZHM6IHRydWUsCiAgICAgICAgbm9ud29yZHM6IGZhbHNlCiAgICAgIH1dLAogICAgICAnc3BhY2VkLWNvbW1lbnQnOiBbMiwgJ2Fsd2F5cycsIHsKICAgICAgICBtYXJrZXJzOiBbJ2dsb2JhbCcsICdnbG9iYWxzJywgJ2VzbGludCcsICdlc2xpbnQtZGlzYWJsZScsICcqcGFja2FnZScsICchJywgJywnXQogICAgICB9XSwKICAgICAgJ3RlbXBsYXRlLWN1cmx5LXNwYWNpbmcnOiBbMiwgJ25ldmVyJ10sCiAgICAgICd1c2UtaXNuYW4nOiAyLAogICAgICAndmFsaWQtdHlwZW9mJzogMiwKICAgICAgJ3dyYXAtaWlmZSc6IFsyLCAnYW55J10sCiAgICAgICd5aWVsZC1zdGFyLXNwYWNpbmcnOiBbMiwgJ2JvdGgnXSwKICAgICAgJ3lvZGEnOiBbMiwgJ25ldmVyJ10sCiAgICAgICdwcmVmZXItY29uc3QnOiAyLAogICAgICAnbm8tZGVidWdnZXInOiBwcm9jZXNzLmVudi5OT0RFX0VOViA9PT0gJ3Byb2R1Y3Rpb24nID8gMiA6IDAsCiAgICAgICdvYmplY3QtY3VybHktc3BhY2luZyc6IFsyLCAnYWx3YXlzJ10sCiAgICAgICdhcnJheS1icmFja2V0LXNwYWNpbmcnOiBbMiwgJ25ldmVyJ10KICAgIH0KICB9Cl0K
+// ESLint flat config (Stage 3 migration from legacy .eslintrc.js)
+// - ESLint 10 默认 espree（移除已废弃的 babel-eslint）
+// - 80+ 自定义规则原样搬入；多词组件名校验关闭（项目存在大量 index.vue 单文件名）
+import js from '@eslint/js'
+import pluginVue from 'eslint-plugin-vue'
+import globals from 'globals'
+
+export default [
+  {
+    // 全局忽略（原 .eslintignore 内容并入）
+    ignores: [
+      'build/**',
+      'src/assets',
+      'public',
+      'dist',
+      '.stage2-dist',
+      'tests/unit/coverage',
+      'coverage'
+    ]
+  },
+  js.configs.recommended,
+  ...pluginVue.configs['flat/recommended'],
+  {
+    files: ['**/*.{js,vue}'],
+    languageOptions: {
+      sourceType: 'module',
+      ecmaVersion: 'latest',
+      globals: {
+        ...globals.browser,
+        ...globals.node
+      }
+    },
+    rules: {
+      'vue/max-attributes-per-line': [2, {
+        singleline: 10,
+        multiline: 1
+      }],
+      'vue/singleline-html-element-content-newline': 'off',
+      'vue/multiline-html-element-content-newline': 'off',
+      'vue/multi-word-component-names': 'off',
+      'vue/no-v-html': 'off',
+      'accessor-pairs': 2,
+      'arrow-spacing': [2, {
+        before: true,
+        after: true
+      }],
+      'block-spacing': [2, 'always'],
+      'brace-style': [2, '1tbs', {
+        allowSingleLine: true
+      }],
+      'camelcase': [0, {
+        properties: 'always'
+      }],
+      'comma-dangle': [2, 'never'],
+      'comma-spacing': [2, {
+        before: false,
+        after: true
+      }],
+      'comma-style': [2, 'last'],
+      'constructor-super': 2,
+      'curly': [2, 'multi-line'],
+      'dot-location': [2, 'property'],
+      'eol-last': 2,
+      'eqeqeq': ['error', 'always', { null: 'ignore' }],
+      'generator-star-spacing': [2, {
+        before: true,
+        after: true
+      }],
+      'handle-callback-err': [2, '^(err|error)$'],
+      'indent': [2, 2, {
+        SwitchCase: 1
+      }],
+      'jsx-quotes': [2, 'prefer-single'],
+      'key-spacing': [2, {
+        beforeColon: false,
+        afterColon: true
+      }],
+      'keyword-spacing': [2, {
+        before: true,
+        after: true
+      }],
+      'new-cap': [2, {
+        newIsCap: true,
+        capIsNew: false
+      }],
+      'new-parens': 2,
+      'no-array-constructor': 2,
+      'no-caller': 2,
+      'no-console': 'off',
+      'no-class-assign': 2,
+      'no-cond-assign': 2,
+      'no-const-assign': 2,
+      'no-control-regex': 0,
+      'no-delete-var': 2,
+      'no-dupe-args': 2,
+      'no-dupe-class-members': 2,
+      'no-dupe-keys': 2,
+      'no-duplicate-case': 2,
+      'no-empty-character-class': 2,
+      'no-empty-pattern': 2,
+      'no-eval': 2,
+      'no-ex-assign': 2,
+      'no-extend-native': 2,
+      'no-extra-bind': 2,
+      'no-extra-boolean-cast': 2,
+      'no-extra-parens': [2, 'functions'],
+      'no-fallthrough': 2,
+      'no-floating-decimal': 2,
+      'no-func-assign': 2,
+      'no-implied-eval': 2,
+      'no-inner-declarations': [2, 'functions'],
+      'no-invalid-regexp': 2,
+      'no-irregular-whitespace': 2,
+      'no-iterator': 2,
+      'no-label-var': 2,
+      'no-labels': [2, {
+        allowLoop: false,
+        allowSwitch: false
+      }],
+      'no-lone-blocks': 2,
+      'no-mixed-spaces-and-tabs': 2,
+      'no-multi-spaces': 2,
+      'no-multi-str': 2,
+      'no-multiple-empty-lines': [2, {
+        max: 1
+      }],
+      'no-native-reassign': 2,
+      'no-negated-in-lhs': 2,
+      'no-new-object': 2,
+      'no-new-require': 2,
+      'no-new-symbol': 2,
+      'no-new-wrappers': 2,
+      'no-obj-calls': 2,
+      'no-octal': 2,
+      'no-octal-escape': 2,
+      'no-path-concat': 2,
+      'no-proto': 2,
+      'no-redeclare': 2,
+      'no-regex-spaces': 2,
+      'no-return-assign': [2, 'except-parens'],
+      'no-self-assign': 2,
+      'no-self-compare': 2,
+      'no-sequences': 2,
+      'no-shadow-restricted-names': 2,
+      'no-spaced-func': 2,
+      'no-sparse-arrays': 2,
+      'no-this-before-super': 2,
+      'no-throw-literal': 2,
+      'no-trailing-spaces': 2,
+      'no-undef': 2,
+      'no-undef-init': 2,
+      'no-unexpected-multiline': 2,
+      'no-unmodified-loop-condition': 2,
+      'no-unneeded-ternary': [2, {
+        defaultAssignment: false
+      }],
+      'no-unreachable': 2,
+      'no-unsafe-finally': 2,
+      'no-unused-vars': [2, {
+        vars: 'all',
+        args: 'none'
+      }],
+      'no-useless-call': 2,
+      'no-useless-computed-key': 2,
+      'no-useless-constructor': 2,
+      'no-useless-escape': 0,
+      'no-whitespace-before-property': 2,
+      'no-with': 2,
+      'one-var': [2, {
+        initialized: 'never'
+      }],
+      'operator-linebreak': [2, 'after', {
+        overrides: {
+          '?': 'before',
+          ':': 'before'
+        }
+      }],
+      'padded-blocks': [2, 'never'],
+      'quotes': [2, 'single', {
+        avoidEscape: true,
+        allowTemplateLiterals: true
+      }],
+      'semi': [2, 'never'],
+      'semi-spacing': [2, {
+        before: false,
+        after: true
+      }],
+      'space-before-blocks': [2, 'always'],
+      'space-before-function-paren': [2, 'never'],
+      'space-in-parens': [2, 'never'],
+      'space-infix-ops': 2,
+      'space-unary-ops': [2, {
+        words: true,
+        nonwords: false
+      }],
+      'spaced-comment': [2, 'always', {
+        markers: ['global', 'globals', 'eslint', 'eslint-disable', '*package', '!', ',']
+      }],
+      'template-curly-spacing': [2, 'never'],
+      'use-isnan': 2,
+      'valid-typeof': 2,
+      'wrap-iife': [2, 'any'],
+      'yield-star-spacing': [2, 'both'],
+      'yoda': [2, 'never'],
+      'prefer-const': 2,
+      'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+      'object-curly-spacing': [2, 'always'],
+      'array-bracket-spacing': [2, 'never']
+    }
+  }
+]
