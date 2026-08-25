@@ -1,1 +1,81 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImFwcC1jb250YWluZXIiPgogICAgPGVsLXRhYmxlCiAgICAgIHYtbG9hZGluZz0ibGlzdExvYWRpbmciCiAgICAgIDpkYXRhPSJsaXN0IgogICAgICBlbGVtZW50LWxvYWRpbmctdGV4dD0iTG9hZGluZyIKICAgICAgYm9yZGVyCiAgICAgIGZpdAogICAgICBoaWdobGlnaHQtY3VycmVudC1yb3cKICAgID4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBhbGlnbj0iY2VudGVyIiBsYWJlbD0iSUQiIHdpZHRoPSI5NSI+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJzY29wZSI+CiAgICAgICAgICB7eyBzY29wZS4kaW5kZXggfX0KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0iVGl0bGUiPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD0ic2NvcGUiPgogICAgICAgICAge3sgc2NvcGUucm93LnRpdGxlIH19CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gbGFiZWw9IkF1dGhvciIgd2lkdGg9IjExMCIgYWxpZ249ImNlbnRlciI+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJzY29wZSI+CiAgICAgICAgICA8c3Bhbj57eyBzY29wZS5yb3cuYXV0aG9yIH19PC9zcGFuPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSJQYWdldmlld3MiIHdpZHRoPSIxMTAiIGFsaWduPSJjZW50ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD0ic2NvcGUiPgogICAgICAgICAge3sgc2NvcGUucm93LnBhZ2V2aWV3cyB9fQogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIGNsYXNzLW5hbWU9InN0YXR1cy1jb2wiIGxhYmVsPSJTdGF0dXMiIHdpZHRoPSIxMTAiIGFsaWduPSJjZW50ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD0ic2NvcGUiPgogICAgICAgICAgPGVsLXRhZyA6dHlwZT0ic3RhdHVzRmlsdGVyKHNjb3BlLnJvdy5zdGF0dXMpIj57eyBzY29wZS5yb3cuc3RhdHVzIH19PC9lbC10YWc+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gYWxpZ249ImNlbnRlciIgcHJvcD0iY3JlYXRlZF9hdCIgbGFiZWw9IkRpc3BsYXlfdGltZSIgd2lkdGg9IjIwMCI+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJzY29wZSI+CiAgICAgICAgICA8ZWwtaWNvbj48Q2xvY2sgLz48L2VsLWljb24+CiAgICAgICAgICA8c3Bhbj57eyBzY29wZS5yb3cuZGlzcGxheV90aW1lIH19PC9zcGFuPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgPC9lbC10YWJsZT4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQ+CmltcG9ydCB7IGdldExpc3QgfSBmcm9tICdAL2FwaS90YWJsZScKaW1wb3J0IHsgQ2xvY2sgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKCmV4cG9ydCBkZWZhdWx0IHsKICBjb21wb25lbnRzOiB7CiAgICBDbG9jawogIH0sCiAgZGF0YSgpIHsKICAgIHJldHVybiB7CiAgICAgIGxpc3Q6IG51bGwsCiAgICAgIGxpc3RMb2FkaW5nOiB0cnVlCiAgICB9CiAgfSwKICBjcmVhdGVkKCkgewogICAgdGhpcy5mZXRjaERhdGEoKQogIH0sCiAgbWV0aG9kczogewogICAgc3RhdHVzRmlsdGVyKHN0YXR1cykgewogICAgICBjb25zdCBzdGF0dXNNYXAgPSB7CiAgICAgICAgcHVibGlzaGVkOiAnc3VjY2VzcycsCiAgICAgICAgZHJhZnQ6ICdncmF5JywKICAgICAgICBkZWxldGVkOiAnZGFuZ2VyJwogICAgICB9CiAgICAgIHJldHVybiBzdGF0dXNNYXBbc3RhdHVzXQogICAgfSwKICAgIGZldGNoRGF0YSgpIHsKICAgICAgdGhpcy5saXN0TG9hZGluZyA9IHRydWUKICAgICAgZ2V0TGlzdCgpLnRoZW4ocmVzcG9uc2UgPT4gewogICAgICAgIHRoaXMubGlzdCA9IHJlc3BvbnNlLmRhdGEuaXRlbXMKICAgICAgICB0aGlzLmxpc3RMb2FkaW5nID0gZmFsc2UKICAgICAgfSkKICAgIH0KICB9Cn0KPC9zY3JpcHQ+Cg==
+<template>
+  <div class="app-container">
+    <el-table
+      v-loading="listLoading"
+      :data="list"
+      element-loading-text="Loading"
+      border
+      fit
+      highlight-current-row
+    >
+      <el-table-column align="center" label="ID" width="95">
+        <template #default="scope">
+          {{ scope.$index }}
+        </template>
+      </el-table-column>
+      <el-table-column label="Title">
+        <template #default="scope">
+          {{ scope.row.title }}
+        </template>
+      </el-table-column>
+      <el-table-column label="Author" width="110" align="center">
+        <template #default="scope">
+          <span>{{ scope.row.author }}</span>
+        </template>
+      </el-table-column>
+      <el-table-column label="Pageviews" width="110" align="center">
+        <template #default="scope">
+          {{ scope.row.pageviews }}
+        </template>
+      </el-table-column>
+      <el-table-column class-name="status-col" label="Status" width="110" align="center">
+        <template #default="scope">
+          <el-tag :type="statusFilter(scope.row.status)">{{ scope.row.status }}</el-tag>
+        </template>
+      </el-table-column>
+      <el-table-column align="center" prop="created_at" label="Display_time" width="200">
+        <template #default="scope">
+          <el-icon><Clock /></el-icon>
+          <span>{{ scope.row.display_time }}</span>
+        </template>
+      </el-table-column>
+    </el-table>
+  </div>
+</template>
+
+<script>
+import { getList } from '@/api/table'
+import { Clock } from '@element-plus/icons-vue'
+
+export default {
+  components: {
+    Clock
+  },
+  data() {
+    return {
+      list: null,
+      listLoading: true
+    }
+  },
+  created() {
+    this.fetchData()
+  },
+  methods: {
+    statusFilter(status) {
+      const statusMap = {
+        published: 'success',
+        draft: 'gray',
+        deleted: 'danger'
+      }
+      return statusMap[status]
+    },
+    fetchData() {
+      this.listLoading = true
+      getList().then(response => {
+        this.list = response.data.items
+        this.listLoading = false
+      })
+    }
+  }
+}
+</script>

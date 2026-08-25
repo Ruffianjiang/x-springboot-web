@@ -1,1 +1,65 @@
-QHVzZSAnLi92YXJpYWJsZXMuc2NzcycgYXMgKjsKQHVzZSAnLi9taXhpbi5zY3NzJyBhcyAqOwpAdXNlICcuL3RyYW5zaXRpb24uc2NzcycgYXMgKjsKQHVzZSAnLi9lbGVtZW50LXVpLnNjc3MnIGFzICo7CkB1c2UgJy4vc2lkZWJhci5zY3NzJyBhcyAqOwoKYm9keSB7CiAgaGVpZ2h0OiAxMDAlOwogIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7CiAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7CiAgdGV4dC1yZW5kZXJpbmc6IG9wdGltaXplTGVnaWJpbGl0eTsKICBmb250LWZhbWlseTogSGVsdmV0aWNhIE5ldWUsIEhlbHZldGljYSwgUGluZ0ZhbmcgU0MsIEhpcmFnaW5vIFNhbnMgR0IsIE1pY3Jvc29mdCBZYUhlaSwgQXJpYWwsIHNhbnMtc2VyaWY7Cn0KCmxhYmVsIHsKICBmb250LXdlaWdodDogNzAwOwp9CgpodG1sIHsKICBoZWlnaHQ6IDEwMCU7CiAgYm94LXNpemluZzogYm9yZGVyLWJveDsKfQoKI2FwcCB7CiAgaGVpZ2h0OiAxMDAlOwp9CgoqLAoqOmJlZm9yZSwKKjphZnRlciB7CiAgYm94LXNpemluZzogaW5oZXJpdDsKfQoKYTpmb2N1cywKYTphY3RpdmUgewogIG91dGxpbmU6IG5vbmU7Cn0KCmEsCmE6Zm9jdXMsCmE6aG92ZXIgewogIGN1cnNvcjogcG9pbnRlcjsKICBjb2xvcjogaW5oZXJpdDsKICB0ZXh0LWRlY29yYXRpb246IG5vbmU7Cn0KCmRpdjpmb2N1cyB7CiAgb3V0bGluZTogbm9uZTsKfQoKLmNsZWFyZml4IHsKICAmOmFmdGVyIHsKICAgIHZpc2liaWxpdHk6IGhpZGRlbjsKICAgIGRpc3BsYXk6IGJsb2NrOwogICAgZm9udC1zaXplOiAwOwogICAgY29udGVudDogIiAiOwogICAgY2xlYXI6IGJvdGg7CiAgICBoZWlnaHQ6IDA7CiAgfQp9CgovLyBtYWluLWNvbnRhaW5lciBnbG9iYWwgY3NzCi5hcHAtY29udGFpbmVyIHsKICBwYWRkaW5nOiAyMHB4Owp9Cg==
+@use './variables.scss' as *;
+@use './mixin.scss' as *;
+@use './transition.scss' as *;
+@use './element-ui.scss' as *;
+@use './sidebar.scss' as *;
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+// main-container global css
+.app-container {
+  padding: 20px;
+}

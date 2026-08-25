@@ -1,1 +1,18 @@
-Y29uc3QgTW9jayA9IHJlcXVpcmUoJ21vY2tqcycpCmNvbnN0IHsgcGFyYW0yT2JqIH0gPSByZXF1aXJlKCcuL3V0aWxzJykKCmNvbnN0IHVzZXIgPSByZXF1aXJlKCcuL3VzZXInKQpjb25zdCB0YWJsZSA9IHJlcXVpcmUoJy4vdGFibGUnKQoKY29uc3QgbW9ja3MgPSBbCiAgLi4udXNlciwKICAuLi50YWJsZQpdCgovLyDms6jvvJrmtY/op4jlmajkvqcgWEhSIG1vY2vvvIhtb2NrWEhS77yJ5bey56e76Zmk44CCCi8vIOacrCBTdGFnZSAzIOaUueeUqCBWaXRlIGRldiDkuK3pl7Tku7bvvIh2aXRlL3BsdWdpbnMvbW9jay5qc++8ieWcqOacjeWKoeerr+aLpuaIqiAvZGV2LWFwaSDor7fmsYLvvIwKLy8g55SxIG1vY2svaW5kZXguanMg5LuF5a+85Ye6IG1vY2tzIOiBmuWQiO+8jOaXoOmcgOWcqOa1j+iniOWZqOWGhemHjeWumuS5iSBYTUxIdHRwUmVxdWVzdOOAggptb2R1bGUuZXhwb3J0cyA9IHsKICBtb2Nrcwp9Cgo=
+const Mock = require('mockjs')
+const { param2Obj } = require('./utils')
+
+const user = require('./user')
+const table = require('./table')
+
+const mocks = [
+  ...user,
+  ...table
+]
+
+// 注：浏览器侧 XHR mock（mockXHR）已移除。
+// 本 Stage 3 改用 Vite dev 中间件（vite/plugins/mock.js）在服务端拦截 /dev-api 请求，
+// 由 mock/index.js 仅导出 mocks 聚合，无需在浏览器内重定义 XMLHttpRequest。
+module.exports = {
+  mocks
+}
+

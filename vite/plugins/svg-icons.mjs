@@ -1,1 +1,10 @@
-aW1wb3J0IHsgY3JlYXRlU3ZnSWNvbnNQbHVnaW4gfSBmcm9tICd2aXRlLXBsdWdpbi1zdmctaWNvbnMnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKCi8vIOaooeWdl+WMliBzdmctaWNvbnMg5o+S5Lu277yIU3RhZ2UgM++8muS7jiB2aXRlLmNvbmZpZy5qcyDlhoXogZTmir3nprvvvIkKZXhwb3J0IGZ1bmN0aW9uIHN2Z0ljb25zKCkgewogIHJldHVybiBjcmVhdGVTdmdJY29uc1BsdWdpbih7CiAgICBpY29uRGlyczogW3BhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCAnc3JjL2ljb25zL3N2ZycpXSwKICAgIHN5bWJvbElkOiAnaWNvbi1bbmFtZV0nCiAgfSkKfQo=
+import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+import path from 'node:path'
+
+// 模块化 svg-icons 插件（Stage 3：从 vite.config.js 内联抽离）
+export function svgIcons() {
+  return createSvgIconsPlugin({
+    iconDirs: [path.resolve(process.cwd(), 'src/icons/svg')],
+    symbolId: 'icon-[name]'
+  })
+}

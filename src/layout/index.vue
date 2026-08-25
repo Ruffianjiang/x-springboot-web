@@ -1,1 +1,93 @@
-PHRlbXBsYXRlPgogIDxkaXYgOmNsYXNzPSJjbGFzc09iaiIgY2xhc3M9ImFwcC13cmFwcGVyIj4KICAgIDxkaXYgdi1pZj0iZGV2aWNlPT09J21vYmlsZScmJnNpZGViYXIub3BlbmVkIiBjbGFzcz0iZHJhd2VyLWJnIiBAY2xpY2s9ImhhbmRsZUNsaWNrT3V0c2lkZSIgLz4KICAgIDxzaWRlYmFyIGNsYXNzPSJzaWRlYmFyLWNvbnRhaW5lciIgLz4KICAgIDxkaXYgY2xhc3M9Im1haW4tY29udGFpbmVyIj4KICAgICAgPGRpdiA6Y2xhc3M9InsnZml4ZWQtaGVhZGVyJzpmaXhlZEhlYWRlcn0iPgogICAgICAgIDxuYXZiYXIgLz4KICAgICAgPC9kaXY+CiAgICAgIDxhcHAtbWFpbiAvPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgppbXBvcnQgeyBOYXZiYXIsIFNpZGViYXIsIEFwcE1haW4gfSBmcm9tICcuL2NvbXBvbmVudHMnCmltcG9ydCBSZXNpemVNaXhpbiBmcm9tICcuL21peGluL1Jlc2l6ZUhhbmRsZXInCgpleHBvcnQgZGVmYXVsdCB7CiAgbmFtZTogJ0xheW91dCcsCiAgY29tcG9uZW50czogewogICAgTmF2YmFyLAogICAgU2lkZWJhciwKICAgIEFwcE1haW4KICB9LAogIG1peGluczogW1Jlc2l6ZU1peGluXSwKICBjb21wdXRlZDogewogICAgc2lkZWJhcigpIHsKICAgICAgcmV0dXJuIHRoaXMuJHN0b3JlLnN0YXRlLmFwcC5zaWRlYmFyCiAgICB9LAogICAgZGV2aWNlKCkgewogICAgICByZXR1cm4gdGhpcy4kc3RvcmUuc3RhdGUuYXBwLmRldmljZQogICAgfSwKICAgIGZpeGVkSGVhZGVyKCkgewogICAgICByZXR1cm4gdGhpcy4kc3RvcmUuc3RhdGUuc2V0dGluZ3MuZml4ZWRIZWFkZXIKICAgIH0sCiAgICBjbGFzc09iaigpIHsKICAgICAgcmV0dXJuIHsKICAgICAgICBoaWRlU2lkZWJhcjogIXRoaXMuc2lkZWJhci5vcGVuZWQsCiAgICAgICAgb3BlblNpZGViYXI6IHRoaXMuc2lkZWJhci5vcGVuZWQsCiAgICAgICAgd2l0aG91dEFuaW1hdGlvbjogdGhpcy5zaWRlYmFyLndpdGhvdXRBbmltYXRpb24sCiAgICAgICAgbW9iaWxlOiB0aGlzLmRldmljZSA9PT0gJ21vYmlsZScKICAgICAgfQogICAgfQogIH0sCiAgbWV0aG9kczogewogICAgaGFuZGxlQ2xpY2tPdXRzaWRlKCkgewogICAgICB0aGlzLiRzdG9yZS5kaXNwYXRjaCgnYXBwL2Nsb3NlU2lkZUJhcicsIHsgd2l0aG91dEFuaW1hdGlvbjogZmFsc2UgfSkKICAgIH0KICB9Cn0KPC9zY3JpcHQ+Cgo8c3R5bGUgbGFuZz0ic2NzcyIgc2NvcGVkPgogIEB1c2UgIkAvc3R5bGVzL21peGluLnNjc3MiIGFzICo7CiAgQHVzZSAiQC9zdHlsZXMvdmFyaWFibGVzLnNjc3MiIGFzICo7CgogIC5hcHAtd3JhcHBlciB7CiAgICBAaW5jbHVkZSBjbGVhcmZpeDsKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIGhlaWdodDogMTAwJTsKICAgIHdpZHRoOiAxMDAlOwogICAgJi5tb2JpbGUub3BlblNpZGViYXJ7CiAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgdG9wOiAwOwogICAgfQogIH0KICAuZHJhd2VyLWJnIHsKICAgIGJhY2tncm91bmQ6ICMwMDA7CiAgICBvcGFjaXR5OiAwLjM7CiAgICB3aWR0aDogMTAwJTsKICAgIHRvcDogMDsKICAgIGhlaWdodDogMTAwJTsKICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICAgIHotaW5kZXg6IDk5OTsKICB9CgogIC5maXhlZC1oZWFkZXIgewogICAgcG9zaXRpb246IGZpeGVkOwogICAgdG9wOiAwOwogICAgcmlnaHQ6IDA7CiAgICB6LWluZGV4OiA5OwogICAgd2lkdGg6IGNhbGMoMTAwJSAtICN7JHNpZGVCYXJXaWR0aH0pOwogICAgdHJhbnNpdGlvbjogd2lkdGggMC4yOHM7CiAgfQoKICAuaGlkZVNpZGViYXIgLmZpeGVkLWhlYWRlciB7CiAgICB3aWR0aDogY2FsYygxMDAlIC0gNTRweCkKICB9CgogIC5tb2JpbGUgLmZpeGVkLWhlYWRlciB7CiAgICB3aWR0aDogMTAwJTsKICB9Cjwvc3R5bGU+Cg==
+<template>
+  <div :class="classObj" class="app-wrapper">
+    <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside" />
+    <sidebar class="sidebar-container" />
+    <div class="main-container">
+      <div :class="{'fixed-header':fixedHeader}">
+        <navbar />
+      </div>
+      <app-main />
+    </div>
+  </div>
+</template>
+
+<script>
+import { Navbar, Sidebar, AppMain } from './components'
+import ResizeMixin from './mixin/ResizeHandler'
+
+export default {
+  name: 'Layout',
+  components: {
+    Navbar,
+    Sidebar,
+    AppMain
+  },
+  mixins: [ResizeMixin],
+  computed: {
+    sidebar() {
+      return this.$store.state.app.sidebar
+    },
+    device() {
+      return this.$store.state.app.device
+    },
+    fixedHeader() {
+      return this.$store.state.settings.fixedHeader
+    },
+    classObj() {
+      return {
+        hideSidebar: !this.sidebar.opened,
+        openSidebar: this.sidebar.opened,
+        withoutAnimation: this.sidebar.withoutAnimation,
+        mobile: this.device === 'mobile'
+      }
+    }
+  },
+  methods: {
+    handleClickOutside() {
+      this.$store.dispatch('app/closeSideBar', { withoutAnimation: false })
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+  @use "@/styles/mixin.scss" as *;
+  @use "@/styles/variables.scss" as *;
+
+  .app-wrapper {
+    @include clearfix;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    &.mobile.openSidebar{
+      position: fixed;
+      top: 0;
+    }
+  }
+  .drawer-bg {
+    background: #000;
+    opacity: 0.3;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    width: calc(100% - #{$sideBarWidth});
+    transition: width 0.28s;
+  }
+
+  .hideSidebar .fixed-header {
+    width: calc(100% - 54px)
+  }
+
+  .mobile .fixed-header {
+    width: 100%;
+  }
+</style>
