@@ -9,7 +9,7 @@ describe('SvgIcon.vue', () => {
     })
     expect(wrapper.find('use').attributes().href).toBe('#icon-test')
   })
-  it('className', () => {
+  it('className', async () => {
     const wrapper = shallowMount(SvgIcon, {
       propsData: {
         iconClass: 'test'
