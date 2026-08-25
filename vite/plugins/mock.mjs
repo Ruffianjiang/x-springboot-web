@@ -1,1 +1,79 @@
-aW1wb3J0IHsgY3JlYXRlUmVxdWlyZSB9IGZyb20gJ25vZGU6bW9kdWxlJwppbXBvcnQgcGF0aCBmcm9tICdub2RlOnBhdGgnCgovLyDoh6rnoJQgVml0ZSBkZXYgbW9jayDkuK3pl7Tku7bvvIhTdGFnZSAz77yM6Zu25paw5L6d6LWW77yJCi8vIOWkjeeUqOeOsOaciSBDSlMgbW9jayDmqKHlnZfvvIhtb2NrL2luZGV4LmpzIOiBmuWQiCBtb2NrL3RhYmxlLmpz44CBbW9jay91c2VyLmpz44CBbW9jay91dGlscy5qc++8iQovLyDlupTnlKggYmFzZVVSTCDkuLogVklURV9CQVNFX0FQST0vZGV2LWFwae+8jOaVheWcqOatpOaLvOaOpSAvZGV2LWFwaSDliY3nvIDlkb3kuK3or7fmsYIKZXhwb3J0IGZ1bmN0aW9uIG1vY2tTZXJ2ZXIoKSB7CiAgY29uc3QgcmVxdWlyZSA9IGNyZWF0ZVJlcXVpcmUoaW1wb3J0Lm1ldGEudXJsKQogIGNvbnN0IG1vY2tJbmRleFBhdGggPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJ21vY2svaW5kZXguanMnKQogIGxldCBtb2NrcyA9IFtdCiAgdHJ5IHsKICAgIGNvbnN0IG1vZCA9IHJlcXVpcmUobW9ja0luZGV4UGF0aCkKICAgIG1vY2tzID0gbW9kLm1vY2tzIHx8IFtdCiAgfSBjYXRjaCAoZSkgewogICAgY29uc29sZS53YXJuKCdbbW9jay1zZXJ2ZXJdIOaXoOazleWKoOi9vSBtb2NrIOaooeWdl++8jG1vY2sg5Yqf6IO95LiN5Y+v55SoOicsIGUubWVzc2FnZSkKICB9CgogIGNvbnN0IEJBU0UgPSAnL2Rldi1hcGknCgogIC8vIOmihOe8luivkeWMuemFjeWZqO+8muWMuuWIhuaZrumAmui3r+W+hOS4juato+WImSB1cmzvvIjlpoIgL3Z1ZS1hZG1pbi10ZW1wbGF0ZS91c2VyL2luZm9cLirvvIkKICBjb25zdCBtYXRjaGVycyA9IG1vY2tzLm1hcCgobSkgPT4gewogICAgY29uc3QgZnVsbCA9IEJBU0UgKyBtLnVybAogICAgY29uc3QgaGFzUmVnZXggPSAvW1xcXiQqKz8oKXxbXF17fV0vLnRlc3QobS51cmwpCiAgICByZXR1cm4gewogICAgICBtZXRob2Q6IChtLnR5cGUgfHwgJ2dldCcpLnRvVXBwZXJDYXNlKCksCiAgICAgIHJlZ2V4OiBoYXNSZWdleCA/IG5ldyBSZWdFeHAoJ14nICsgZnVsbCkgOiBudWxsLAogICAgICBwYXRoOiBoYXNSZWdleCA/IG51bGwgOiBmdWxsLAogICAgICByZXNwb25zZTogbS5yZXNwb25zZQogICAgfQogIH0pCgogIHJldHVybiB7CiAgICBuYW1lOiAndml0ZS1wbHVnaW4tbW9jay1zZXJ2ZXInLAogICAgY29uZmlndXJlU2VydmVyKHNlcnZlcikgewogICAgICBzZXJ2ZXIubWlkZGxld2FyZXMudXNlKChyZXEsIHJlcywgbmV4dCkgPT4gewogICAgICAgIGNvbnN0IHJlcVBhdGggPSAocmVxLnVybCB8fCAnJykuc3BsaXQoJz8nKVswXQogICAgICAgIGNvbnN0IG1ldGhvZCA9IChyZXEubWV0aG9kIHx8ICdHRVQnKS50b1VwcGVyQ2FzZSgpCiAgICAgICAgY29uc3QgbWF0Y2hlZCA9IG1hdGNoZXJzLmZpbmQoKG0pID0+IHsKICAgICAgICAgIGlmIChtLm1ldGhvZCAhPT0gbWV0aG9kKSByZXR1cm4gZmFsc2UKICAgICAgICAgIGlmIChtLnJlZ2V4KSByZXR1cm4gbS5yZWdleC50ZXN0KHJlcVBhdGgpCiAgICAgICAgICByZXR1cm4gbS5wYXRoID09PSByZXFQYXRoCiAgICAgICAgfSkKICAgICAgICBpZiAoIW1hdGNoZWQpIHJldHVybiBuZXh0KCkKCiAgICAgICAgY29uc3QgY2h1bmtzID0gW10KICAgICAgICByZXEub24oJ2RhdGEnLCAoYykgPT4gY2h1bmtzLnB1c2goYykpCiAgICAgICAgcmVxLm9uKCdlbmQnLCAoKSA9PiB7CiAgICAgICAgICBsZXQgYm9keSA9IHt9CiAgICAgICAgICBpZiAoY2h1bmtzLmxlbmd0aCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgIGJvZHkgPSBKU09OLnBhcnNlKEJ1ZmZlci5jb25jYXQoY2h1bmtzKS50b1N0cmluZygndXRmOCcpKQogICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgLy8g6Z2eIEpTT04gYm9keSDlv73nlaUKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgICAgY29uc3QgcXVlcnkgPSBPYmplY3QuZnJvbUVudHJpZXMoCiAgICAgICAgICAgIG5ldyBVUkxTZWFyY2hQYXJhbXMoKHJlcS51cmwgfHwgJycpLnNwbGl0KCc/JylbMV0gfHwgJycpCiAgICAgICAgICApCiAgICAgICAgICBjb25zdCBjb25maWcgPSB7IHVybDogcmVxLnVybCwgbWV0aG9kLCBib2R5LCBxdWVyeSB9CiAgICAgICAgICBsZXQgcmVzdWx0CiAgICAgICAgICB0cnkgewogICAgICAgICAgICByZXN1bHQgPQogICAgICAgICAgICAgIHR5cGVvZiBtYXRjaGVkLnJlc3BvbnNlID09PSAnZnVuY3Rpb24nCiAgICAgICAgICAgICAgICA/IG1hdGNoZWQucmVzcG9uc2UoY29uZmlnKQogICAgICAgICAgICAgICAgOiBtYXRjaGVkLnJlc3BvbnNlCiAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgIHJlcy5zdGF0dXNDb2RlID0gNTAwCiAgICAgICAgICAgIHJlcy5zZXRIZWFkZXIoJ0NvbnRlbnQtVHlwZScsICdhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PXV0Zi04JykKICAgICAgICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh7IGNvZGU6IDUwMCwgbWVzc2FnZTogZS5tZXNzYWdlIH0pKQogICAgICAgICAgICByZXR1cm4KICAgICAgICAgIH0KICAgICAgICAgIHJlcy5zdGF0dXNDb2RlID0gMjAwCiAgICAgICAgICByZXMuc2V0SGVhZGVyKCdDb250ZW50LVR5cGUnLCAnYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOCcpCiAgICAgICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHJlc3VsdCkpCiAgICAgICAgfSkKICAgICAgfSkKICAgIH0KICB9Cn0K
+import { createRequire } from 'node:module'
+import path from 'node:path'
+
+// 自研 Vite dev mock 中间件（Stage 3，零新依赖）
+// 复用现有 CJS mock 模块（mock/index.js 聚合 mock/table.js、mock/user.js、mock/utils.js）
+// 应用 baseURL 为 VITE_BASE_API=/dev-api，故在此拼接 /dev-api 前缀命中请求
+export function mockServer() {
+  const require = createRequire(import.meta.url)
+  const mockIndexPath = path.resolve(process.cwd(), 'mock/index.js')
+  let mocks = []
+  try {
+    const mod = require(mockIndexPath)
+    mocks = mod.mocks || []
+  } catch (e) {
+    console.warn('[mock-server] 无法加载 mock 模块，mock 功能不可用:', e.message)
+  }
+
+  const BASE = '/dev-api'
+
+  // 预编译匹配器：区分普通路径与正则 url（如 /vue-admin-template/user/info\.*）
+  const matchers = mocks.map((m) => {
+    const full = BASE + m.url
+    const hasRegex = /[\\^$*+?()|[\]{}]/.test(m.url)
+    return {
+      method: (m.type || 'get').toUpperCase(),
+      regex: hasRegex ? new RegExp('^' + full) : null,
+      path: hasRegex ? null : full,
+      response: m.response
+    }
+  })
+
+  return {
+    name: 'vite-plugin-mock-server',
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const reqPath = (req.url || '').split('?')[0]
+        const method = (req.method || 'GET').toUpperCase()
+        const matched = matchers.find((m) => {
+          if (m.method !== method) return false
+          if (m.regex) return m.regex.test(reqPath)
+          return m.path === reqPath
+        })
+        if (!matched) return next()
+
+        const chunks = []
+        req.on('data', (c) => chunks.push(c))
+        req.on('end', () => {
+          let body = {}
+          if (chunks.length) {
+            try {
+              body = JSON.parse(Buffer.concat(chunks).toString('utf8'))
+            } catch (e) {
+              // 非 JSON body 忽略
+            }
+          }
+          const query = Object.fromEntries(
+            new URLSearchParams((req.url || '').split('?')[1] || '')
+          )
+          const config = { url: req.url, method, body, query }
+          let result
+          try {
+            result =
+              typeof matched.response === 'function'
+                ? matched.response(config)
+                : matched.response
+          } catch (e) {
+            res.statusCode = 500
+            res.setHeader('Content-Type', 'application/json; charset=utf-8')
+            res.end(JSON.stringify({ code: 500, message: e.message }))
+            return
+          }
+          res.statusCode = 200
+          res.setHeader('Content-Type', 'application/json; charset=utf-8')
+          res.end(JSON.stringify(result))
+        })
+      })
+    }
+  }
+}

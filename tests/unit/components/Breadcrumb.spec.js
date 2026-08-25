@@ -1,1 +1,93 @@
-aW1wb3J0IHsgbW91bnQgfSBmcm9tICdAdnVlL3Rlc3QtdXRpbHMnCmltcG9ydCB7IGggfSBmcm9tICd2dWUnCmltcG9ydCBFbGVtZW50UGx1cyBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IGNyZWF0ZVJvdXRlciwgY3JlYXRlTWVtb3J5SGlzdG9yeSB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCBCcmVhZGNydW1iIGZyb20gJ0AvY29tcG9uZW50cy9CcmVhZGNydW1iL2luZGV4LnZ1ZScKCi8vIOWNoOS9jee7hOS7tu+8mnZ1ZS1yb3V0ZXIgNCDopoHmsYLmr4/kuKrot6/nlLHorrDlvZXlv4XpobvmnIkgY29tcG9uZW50CmNvbnN0IER1bW15ID0geyByZW5kZXI6ICgpID0+IGgoJ2RpdicpIH0KCmNvbnN0IHJvdXRlcyA9IFsKICB7CiAgICBwYXRoOiAnLycsCiAgICBuYW1lOiAnaG9tZScKICB9LAogIHsKICAgIHBhdGg6ICcvZGFzaGJvYXJkJywKICAgIG5hbWU6ICdkYXNoYm9hcmQnLAogICAgbWV0YTogeyB0aXRsZTogJ0Rhc2hib2FyZCcgfSwKICAgIGNvbXBvbmVudDogRHVtbXkKICB9LAogIHsKICAgIHBhdGg6ICcvbWVudScsCiAgICBuYW1lOiAnbWVudScsCiAgICBjb21wb25lbnQ6IER1bW15LAogICAgY2hpbGRyZW46IFt7CiAgICAgIHBhdGg6ICdtZW51MScsCiAgICAgIG5hbWU6ICdtZW51MScsCiAgICAgIG1ldGE6IHsgdGl0bGU6ICdtZW51MScgfSwKICAgICAgY29tcG9uZW50OiBEdW1teSwKICAgICAgY2hpbGRyZW46IFt7CiAgICAgICAgcGF0aDogJ21lbnUxLTInLAogICAgICAgIG5hbWU6ICdtZW51MS0yJywKICAgICAgICByZWRpcmVjdDogJ25vcmVkaXJlY3QnLAogICAgICAgIG1ldGE6IHsgdGl0bGU6ICdtZW51MS0yJyB9LAogICAgICAgIGNvbXBvbmVudDogRHVtbXksCiAgICAgICAgY2hpbGRyZW46IFt7CiAgICAgICAgICBwYXRoOiAnbWVudTEtMi0xJywKICAgICAgICAgIG5hbWU6ICdtZW51MS0yLTEnLAogICAgICAgICAgbWV0YTogeyB0aXRsZTogJ21lbnUxLTItMScgfSwKICAgICAgICAgIGNvbXBvbmVudDogRHVtbXkKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdtZW51MS0yLTInLAogICAgICAgICAgbmFtZTogJ21lbnUxLTItMicsCiAgICAgICAgICBjb21wb25lbnQ6IER1bW15CiAgICAgICAgfV0KICAgICAgfV0KICAgIH1dCiAgfQpdCgpjb25zdCByb3V0ZXIgPSBjcmVhdGVSb3V0ZXIoewogIGhpc3Rvcnk6IGNyZWF0ZU1lbW9yeUhpc3RvcnkoKSwKICByb3V0ZXMKfSkKCmZ1bmN0aW9uIGNyZWF0ZVdyYXBwZXIoKSB7CiAgcmV0dXJuIG1vdW50KEJyZWFkY3J1bWIsIHsKICAgIGdsb2JhbDogewogICAgICBwbHVnaW5zOiBbcm91dGVyLCBFbGVtZW50UGx1c10KICAgIH0KICB9KQp9CgpkZXNjcmliZSgnQnJlYWRjcnVtYi52dWUnLCAoKSA9PiB7CiAgaXQoJ2Rhc2hib2FyZCcsIGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJvdXRlci5wdXNoKCcvZGFzaGJvYXJkJykKICAgIGNvbnN0IHdyYXBwZXIgPSBjcmVhdGVXcmFwcGVyKCkKICAgIGV4cGVjdCh3cmFwcGVyLmZpbmRBbGwoJy5lbC1icmVhZGNydW1iX19pbm5lcicpLmxlbmd0aCkudG9CZSgxKQogIH0pCiAgaXQoJ25vcm1hbCByb3V0ZScsIGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJvdXRlci5wdXNoKCcvbWVudS9tZW51MScpCiAgICBjb25zdCB3cmFwcGVyID0gY3JlYXRlV3JhcHBlcigpCiAgICBleHBlY3Qod3JhcHBlci5maW5kQWxsKCcuZWwtYnJlYWRjcnVtYl9faW5uZXInKS5sZW5ndGgpLnRvQmUoMikKICB9KQogIGl0KCduZXN0ZWQgcm91dGUnLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCByb3V0ZXIucHVzaCgnL21lbnUvbWVudTEvbWVudTEtMi9tZW51MS0yLTEnKQogICAgY29uc3Qgd3JhcHBlciA9IGNyZWF0ZVdyYXBwZXIoKQogICAgZXhwZWN0KHdyYXBwZXIuZmluZEFsbCgnLmVsLWJyZWFkY3J1bWJfX2lubmVyJykubGVuZ3RoKS50b0JlKDQpCiAgfSkKICBpdCgnbm8gbWV0YS50aXRsZScsIGFzeW5jICgpID0+IHsKICAgIGF3YWl0IHJvdXRlci5wdXNoKCcvbWVudS9tZW51MS9tZW51MS0yL21lbnUxLTItMicpCiAgICBjb25zdCB3cmFwcGVyID0gY3JlYXRlV3JhcHBlcigpCiAgICBleHBlY3Qod3JhcHBlci5maW5kQWxsKCcuZWwtYnJlYWRjcnVtYl9faW5uZXInKS5sZW5ndGgpLnRvQmUoMykKICB9KQogIGl0KCdsYXN0IGJyZWFkY3J1bWInLCBhc3luYyAoKSA9PiB7CiAgICBhd2FpdCByb3V0ZXIucHVzaCgnL21lbnUvbWVudTEvbWVudTEtMi9tZW51MS0yLTEnKQogICAgY29uc3Qgd3JhcHBlciA9IGNyZWF0ZVdyYXBwZXIoKQogICAgY29uc3QgYnJlYWRjcnVtYkFycmF5ID0gd3JhcHBlci5maW5kQWxsKCcuZWwtYnJlYWRjcnVtYl9faW5uZXInKQogICAgY29uc3QgcmVkaXJlY3RCcmVhZGNydW1iID0gYnJlYWRjcnVtYkFycmF5LmF0KDMpCiAgICBleHBlY3QocmVkaXJlY3RCcmVhZGNydW1iLmZpbmQoJ2EnKS5leGlzdHMoKSkudG9CZShmYWxzZSkKICB9KQp9KQo=
+import { mount } from '@vue/test-utils'
+import { h } from 'vue'
+import ElementPlus from 'element-plus'
+import { createRouter, createMemoryHistory } from 'vue-router'
+import Breadcrumb from '@/components/Breadcrumb/index.vue'
+
+// 占位组件：vue-router 4 要求每个路由记录必须有 component
+const Dummy = { render: () => h('div') }
+
+const routes = [
+  {
+    path: '/',
+    name: 'home'
+  },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    meta: { title: 'Dashboard' },
+    component: Dummy
+  },
+  {
+    path: '/menu',
+    name: 'menu',
+    component: Dummy,
+    children: [{
+      path: 'menu1',
+      name: 'menu1',
+      meta: { title: 'menu1' },
+      component: Dummy,
+      children: [{
+        path: 'menu1-2',
+        name: 'menu1-2',
+        redirect: 'noredirect',
+        meta: { title: 'menu1-2' },
+        component: Dummy,
+        children: [{
+          path: 'menu1-2-1',
+          name: 'menu1-2-1',
+          meta: { title: 'menu1-2-1' },
+          component: Dummy
+        },
+        {
+          path: 'menu1-2-2',
+          name: 'menu1-2-2',
+          component: Dummy
+        }]
+      }]
+    }]
+  }
+]
+
+const router = createRouter({
+  history: createMemoryHistory(),
+  routes
+})
+
+function createWrapper() {
+  return mount(Breadcrumb, {
+    global: {
+      plugins: [router, ElementPlus]
+    }
+  })
+}
+
+describe('Breadcrumb.vue', () => {
+  it('dashboard', async () => {
+    await router.push('/dashboard')
+    const wrapper = createWrapper()
+    expect(wrapper.findAll('.el-breadcrumb__inner').length).toBe(1)
+  })
+  it('normal route', async () => {
+    await router.push('/menu/menu1')
+    const wrapper = createWrapper()
+    expect(wrapper.findAll('.el-breadcrumb__inner').length).toBe(2)
+  })
+  it('nested route', async () => {
+    await router.push('/menu/menu1/menu1-2/menu1-2-1')
+    const wrapper = createWrapper()
+    expect(wrapper.findAll('.el-breadcrumb__inner').length).toBe(4)
+  })
+  it('no meta.title', async () => {
+    await router.push('/menu/menu1/menu1-2/menu1-2-2')
+    const wrapper = createWrapper()
+    expect(wrapper.findAll('.el-breadcrumb__inner').length).toBe(3)
+  })
+  it('last breadcrumb', async () => {
+    await router.push('/menu/menu1/menu1-2/menu1-2-1')
+    const wrapper = createWrapper()
+    const breadcrumbArray = wrapper.findAll('.el-breadcrumb__inner')
+    const redirectBreadcrumb = breadcrumbArray.at(3)
+    expect(redirectBreadcrumb.find('a').exists()).toBe(false)
+  })
+})

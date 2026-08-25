@@ -1,1 +1,78 @@
-PHRlbXBsYXRlPgogIDxlbC1icmVhZGNydW1iIGNsYXNzPSJhcHAtYnJlYWRjcnVtYiIgc2VwYXJhdG9yPSIvIj4KICAgIDx0cmFuc2l0aW9uLWdyb3VwIG5hbWU9ImJyZWFkY3J1bWIiPgogICAgICA8ZWwtYnJlYWRjcnVtYi1pdGVtIHYtZm9yPSIoaXRlbSxpbmRleCkgaW4gbGV2ZWxMaXN0IiA6a2V5PSJpdGVtLnBhdGgiPgogICAgICAgIDxzcGFuIHYtaWY9Iml0ZW0ucmVkaXJlY3Q9PT0nbm9SZWRpcmVjdCd8fGluZGV4PT1sZXZlbExpc3QubGVuZ3RoLTEiIGNsYXNzPSJuby1yZWRpcmVjdCI+e3sgaXRlbS5tZXRhLnRpdGxlIH19PC9zcGFuPgogICAgICAgIDxhIHYtZWxzZSBAY2xpY2sucHJldmVudD0iaGFuZGxlTGluayhpdGVtKSI+e3sgaXRlbS5tZXRhLnRpdGxlIH19PC9hPgogICAgICA8L2VsLWJyZWFkY3J1bWItaXRlbT4KICAgIDwvdHJhbnNpdGlvbi1ncm91cD4KICA8L2VsLWJyZWFkY3J1bWI+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0PgppbXBvcnQgcGF0aFRvUmVnZXhwIGZyb20gJ3BhdGgtdG8tcmVnZXhwJwoKZXhwb3J0IGRlZmF1bHQgewogIGRhdGEoKSB7CiAgICByZXR1cm4gewogICAgICBsZXZlbExpc3Q6IG51bGwKICAgIH0KICB9LAogIHdhdGNoOiB7CiAgICAkcm91dGUoKSB7CiAgICAgIHRoaXMuZ2V0QnJlYWRjcnVtYigpCiAgICB9CiAgfSwKICBjcmVhdGVkKCkgewogICAgdGhpcy5nZXRCcmVhZGNydW1iKCkKICB9LAogIG1ldGhvZHM6IHsKICAgIGdldEJyZWFkY3J1bWIoKSB7CiAgICAgIC8vIG9ubHkgc2hvdyByb3V0ZXMgd2l0aCBtZXRhLnRpdGxlCiAgICAgIGxldCBtYXRjaGVkID0gdGhpcy4kcm91dGUubWF0Y2hlZC5maWx0ZXIoaXRlbSA9PiBpdGVtLm1ldGEgJiYgaXRlbS5tZXRhLnRpdGxlKQogICAgICBjb25zdCBmaXJzdCA9IG1hdGNoZWRbMF0KCiAgICAgIGlmICghdGhpcy5pc0Rhc2hib2FyZChmaXJzdCkpIHsKICAgICAgICBtYXRjaGVkID0gW3sgcGF0aDogJy9kYXNoYm9hcmQnLCBtZXRhOiB7IHRpdGxlOiAnRGFzaGJvYXJkJyB9IH1dLmNvbmNhdChtYXRjaGVkKQogICAgICB9CgogICAgICB0aGlzLmxldmVsTGlzdCA9IG1hdGNoZWQuZmlsdGVyKGl0ZW0gPT4gaXRlbS5tZXRhICYmIGl0ZW0ubWV0YS50aXRsZSAmJiBpdGVtLm1ldGEuYnJlYWRjcnVtYiAhPT0gZmFsc2UpCiAgICB9LAogICAgaXNEYXNoYm9hcmQocm91dGUpIHsKICAgICAgY29uc3QgbmFtZSA9IHJvdXRlICYmIHJvdXRlLm5hbWUKICAgICAgaWYgKCFuYW1lKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgIH0KICAgICAgcmV0dXJuIG5hbWUudHJpbSgpLnRvTG9jYWxlTG93ZXJDYXNlKCkgPT09ICdEYXNoYm9hcmQnLnRvTG9jYWxlTG93ZXJDYXNlKCkKICAgIH0sCiAgICBwYXRoQ29tcGlsZShwYXRoKSB7CiAgICAgIC8vIFRvIHNvbHZlIHRoaXMgcHJvYmxlbSBodHRwczovL2dpdGh1Yi5jb20vUGFuSmlhQ2hlbi92dWUtZWxlbWVudC1hZG1pbi9pc3N1ZXMvNTYxCiAgICAgIGNvbnN0IHsgcGFyYW1zIH0gPSB0aGlzLiRyb3V0ZQogICAgICB2YXIgdG9QYXRoID0gcGF0aFRvUmVnZXhwLmNvbXBpbGUocGF0aCkKICAgICAgcmV0dXJuIHRvUGF0aChwYXJhbXMpCiAgICB9LAogICAgaGFuZGxlTGluayhpdGVtKSB7CiAgICAgIGNvbnN0IHsgcmVkaXJlY3QsIHBhdGggfSA9IGl0ZW0KICAgICAgaWYgKHJlZGlyZWN0KSB7CiAgICAgICAgdGhpcy4kcm91dGVyLnB1c2gocmVkaXJlY3QpCiAgICAgICAgcmV0dXJuCiAgICAgIH0KICAgICAgdGhpcy4kcm91dGVyLnB1c2godGhpcy5wYXRoQ29tcGlsZShwYXRoKSkKICAgIH0KICB9Cn0KPC9zY3JpcHQ+Cgo8c3R5bGUgbGFuZz0ic2NzcyIgc2NvcGVkPgouYXBwLWJyZWFkY3J1bWIuZWwtYnJlYWRjcnVtYiB7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogIGZvbnQtc2l6ZTogMTRweDsKICBsaW5lLWhlaWdodDogNTBweDsKICBtYXJnaW4tbGVmdDogOHB4OwoKICAubm8tcmVkaXJlY3QgewogICAgY29sb3I6ICM5N2E4YmU7CiAgICBjdXJzb3I6IHRleHQ7CiAgfQp9Cjwvc3R5bGU+Cg==
+<template>
+  <el-breadcrumb class="app-breadcrumb" separator="/">
+    <transition-group name="breadcrumb">
+      <el-breadcrumb-item v-for="(item,index) in levelList" :key="item.path">
+        <span v-if="item.redirect==='noRedirect'||index==levelList.length-1" class="no-redirect">{{ item.meta.title }}</span>
+        <a v-else @click.prevent="handleLink(item)">{{ item.meta.title }}</a>
+      </el-breadcrumb-item>
+    </transition-group>
+  </el-breadcrumb>
+</template>
+
+<script>
+import pathToRegexp from 'path-to-regexp'
+
+export default {
+  data() {
+    return {
+      levelList: null
+    }
+  },
+  watch: {
+    $route() {
+      this.getBreadcrumb()
+    }
+  },
+  created() {
+    this.getBreadcrumb()
+  },
+  methods: {
+    getBreadcrumb() {
+      // only show routes with meta.title
+      let matched = this.$route.matched.filter(item => item.meta && item.meta.title)
+      const first = matched[0]
+
+      if (!this.isDashboard(first)) {
+        matched = [{ path: '/dashboard', meta: { title: 'Dashboard' } }].concat(matched)
+      }
+
+      this.levelList = matched.filter(item => item.meta && item.meta.title && item.meta.breadcrumb !== false)
+    },
+    isDashboard(route) {
+      const name = route && route.name
+      if (!name) {
+        return false
+      }
+      return name.trim().toLocaleLowerCase() === 'Dashboard'.toLocaleLowerCase()
+    },
+    pathCompile(path) {
+      // To solve this problem https://github.com/PanJiaChen/vue-element-admin/issues/561
+      const { params } = this.$route
+      var toPath = pathToRegexp.compile(path)
+      return toPath(params)
+    },
+    handleLink(item) {
+      const { redirect, path } = item
+      if (redirect) {
+        this.$router.push(redirect)
+        return
+      }
+      this.$router.push(this.pathCompile(path))
+    }
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.app-breadcrumb.el-breadcrumb {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 50px;
+  margin-left: 8px;
+
+  .no-redirect {
+    color: #97a8be;
+    cursor: text;
+  }
+}
+</style>
