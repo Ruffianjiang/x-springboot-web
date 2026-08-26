@@ -1,10 +1,17 @@
-# x-springboot-web → 放到 .github/dependabot.yml
+# x-springboot-web -> .github/dependabot.yml
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"   # 现有 PR 来自仓库根
+    directory: "/"
     schedule:
       interval: "weekly"
+    # Security updates for these are unresolvable without downgrading a top-level dep:
+    #  - postcss: pinned to ^5.2.17 by svg-baker (via vite-plugin-svg-icons), patch path downgrades vite-plugin-svg-icons 2.0.1 -> 0.1.0
+    #  - glob: pinned to ^10.4.2 by js-beautify (via @vue/test-utils), patch path downgrades @vue/test-utils 2.4.11 -> 2.2.7
+    # Dependabot marks the update job failed on every weekly run; ignore to keep CI green.
+    ignore:
+      - dependency-name: "postcss"
+      - dependency-name: "glob"
     groups:
       all-dependencies:
         patterns: ["*"]
