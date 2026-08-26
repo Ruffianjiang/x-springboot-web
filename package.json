@@ -41,6 +41,11 @@
     "vitest": "^4.1.11",
     "vue-eslint-parser": "^10.4.1"
   },
+  "overrides": {
+    "postcss": "8.5.23",
+    "glob": "10.5.0",
+    "braces": "3.0.3"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions"
