@@ -19,7 +19,7 @@
     "js-cookie": "3.0.8",
     "normalize.css": "8.0.1",
     "nprogress": "0.2.0",
-    "path-to-regexp": "8.4.2",
+    "path-to-regexp": "9.0.0",
     "vue": "3.5.44",
     "vue-router": "5.4.0",
     "vuex": "4.1.0"
@@ -35,8 +35,8 @@
     "globals": "^17.13.0",
     "happy-dom": "^21.0.4",
     "mockjs": "1.1.0",
-    "sass": "1.105.2",
-    "vite": "8.3.4",
+    "sass": "1.106.1",
+    "vite": "8.3.5",
     "vite-plugin-svg-icons": "2.0.1",
     "vitest": "^5.0.5",
     "vue-eslint-parser": "^10.4.1"
