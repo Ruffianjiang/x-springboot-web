@@ -15,12 +15,12 @@
   "dependencies": {
     "@element-plus/icons-vue": "2.3.2",
     "axios": "1.21.0",
-    "element-plus": "2.14.7",
+    "element-plus": "2.14.8",
     "js-cookie": "3.0.8",
     "normalize.css": "8.0.1",
     "nprogress": "0.2.0",
     "path-to-regexp": "9.0.0",
-    "vue": "3.5.44",
+    "vue": "3.5.45",
     "vue-router": "5.4.0",
     "vuex": "4.1.0"
   },
@@ -32,14 +32,14 @@
     "eslint": "10.14.0",
     "eslint-plugin-vue": "10.12.0",
     "fast-glob": "^3.3.3",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "happy-dom": "^21.0.4",
     "mockjs": "1.1.0",
-    "sass": "1.107.1",
-    "vite": "8.3.5",
+    "sass": "1.108.1",
+    "vite": "8.3.6",
     "vite-plugin-svg-icons": "2.0.1",
-    "vitest": "^5.0.5",
-    "vue-eslint-parser": "^10.4.1"
+    "vitest": "^5.1.0",
+    "vue-eslint-parser": "^10.4.2"
   },
   "overrides": {
     "postcss": ">=8.5.23",
