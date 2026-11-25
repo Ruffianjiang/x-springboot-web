@@ -20,7 +20,7 @@
     "normalize.css": "8.0.1",
     "nprogress": "0.2.0",
     "path-to-regexp": "9.0.0",
-    "vue": "3.5.45",
+    "vue": "3.5.46",
     "vue-router": "5.5.1",
     "vuex": "4.1.0"
   },
@@ -28,7 +28,7 @@
     "@eslint/js": "^10.0.1",
     "@vitejs/plugin-vue": "6.0.11",
     "@vue/test-utils": "2.6.0",
-    "autoprefixer": "10.6.2",
+    "autoprefixer": "10.7.0",
     "eslint": "10.15.0",
     "eslint-plugin-vue": "10.12.1",
     "fast-glob": "^3.3.3",
@@ -38,7 +38,7 @@
     "sass": "1.108.2",
     "vite": "8.3.8",
     "vite-plugin-svg-icons": "2.0.1",
-    "vitest": "^5.1.0",
+    "vitest": "^5.1.1",
     "vue-eslint-parser": "^10.4.2"
   },
   "overrides": {
